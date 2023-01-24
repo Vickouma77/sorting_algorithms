@@ -5,7 +5,7 @@ A sorting algorithm is a method for arranging a set of data in a specific order,
 
 Big-O notation is a way to describe the performance of an algorithm, specifically the amount of time it takes for the algorithm to complete. It describes the upper bound on the number of operations the algorithm performs in relation to the size of the input data set. For example, an algorithm with a time complexity of O(n) will take roughly the same amount of time to complete regardless of the size of the input data set, while an algorithm with a time complexity of O(n^2) will take much longer to complete as the size of the input data set increases.
 
-## Bubble Sort
+## Bubble Sort :water:
 
 Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
 
@@ -23,7 +23,7 @@ It can be improved to O(n) if we add a flag that checks if any swapping happened
 
 It is not widely used in practice due to its poor performance, but it is often used as a simple example in teaching basic algorithms.
 
-## Insertion Sort
+## Insertion Sort :tree:
 
 Insertion sort is a simple sorting algorithm that builds the final sorted list one item at a time. It repeatedly takes an unsorted element and inserts it into its proper position in the sorted portion of the list.
 
@@ -40,7 +40,7 @@ Insertion sort is often used in practice for small data sets, and also as a simp
 
 It has a best-case time complexity of O(n) when the input is already sorted and worst case of O(n^2) when the input is sorted in reverse.
 
-## Selection Sort
+## Selection Sort :smile:
 
 Selection sort is a simple sorting algorithm that repeatedly selects the smallest (or largest) element from the unsorted portion of the list and appends it to the sorted portion of the list.
 
@@ -57,7 +57,7 @@ It is not widely used in practice due to its poor performance, but it is often u
 
 It has a best case and worst-case time complexity of O(n^2) which makes it less efficient for larger data sets.
 
-## Merge Sort
+## Merge Sort :hands:
 
 Merge sort is a divide and conquer sorting algorithm that divides the input list into two sublists, recursively sorts the sublists, and then merges the sorted sublists to produce the final sorted list.
 
@@ -73,7 +73,7 @@ This algorithm has a good balance between the time and space efficiency and it's
 
 It has a best and worst-case time complexity of O(n log n) which makes it more efficient than the previous sorting algorithms discussed.
 
-## Quick Sort
+## Quick Sort :run:
 
 Quick sort is a divide and conquer sorting algorithm that selects a "pivot" element from the list and partition the other elements into two sublists, according to whether they are less than or greater than the pivot. The sublists are then recursively sorted.
 
@@ -88,3 +88,4 @@ Quick sort has an average time complexity of O(n log n), making it more efficien
 
 Quick sort is widely used in practice because of its speed and efficiency and it's also an in-place sorting algorithm which means it uses a small constant amount of memory. However, the worst-case scenario can be avoided by choosing a random pivot or using a modified version of quick sort like the "IntroSort" which fallbacks to a stable sorting algorithm like heap sort or merge sort when the recursion depth exceeds a certain level.
 
+:run:
