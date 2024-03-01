@@ -84,6 +84,7 @@ The algorithm can be described as follows:
     Recursively sort the sublists
     Combine the sorted sublists and the pivot to form the final sorted list
 
+
 Quick sort has an average time complexity of O(n log n), making it more efficient than the previous sorting algorithms discussed. In the best case, the pivot is the middle element of the array and the time complexity is O(n log n). In the worst case, the pivot is always the smallest or largest element, which makes the time complexity O(n^2) if the pivot is always the same.
 
 Quick sort is widely used in practice because of its speed and efficiency and it's also an in-place sorting algorithm which means it uses a small constant amount of memory. However, the worst-case scenario can be avoided by choosing a random pivot or using a modified version of quick sort like the "IntroSort" which fallbacks to a stable sorting algorithm like heap sort or merge sort when the recursion depth exceeds a certain level.
